@@ -115,7 +115,7 @@ Footer p {
 .titre-maisons {
   text-align: center;
   padding: 10px;
-  margin-bottom: 110px;
+  margin-bottom: 50px;
 }
 .container-perso img {
   width: 200px;
@@ -173,4 +173,8 @@ Footer p {
 
 .margin-heros {
   margin-bottom: 30px;
+}
+
+.margin-maison {
+  margin: 10px;
 }
