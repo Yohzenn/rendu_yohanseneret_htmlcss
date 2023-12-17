@@ -7,7 +7,7 @@
   color: white;
 }
 
-body{
+body {
   background: url(/site/image/hogwart.png);
   background-size: cover;
   background-position: center;
@@ -31,7 +31,7 @@ nav a {
   transition: 0.3s;
 }
 
-.livres{
+.livres {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -39,7 +39,7 @@ nav a {
   width: 60%;
   margin-top: 50px;
 }
-.livre{
+.livre {
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -58,7 +58,7 @@ nav a:hover {
   text-decoration: underline;
   transition: all 0.5 ease-in-out;
 }
-.wrapper{
+.wrapper {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -70,8 +70,6 @@ nav a:hover {
   text-align: center;
   justify-content: center;
   margin: 30px 0px;
-  
-
 }
 
 .heros {
@@ -80,7 +78,7 @@ nav a:hover {
   font-size: 1.2rem;
   text-decoration: underline;
 }
-.main{
+.main {
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -91,7 +89,7 @@ nav a:hover {
 footer {
   text-align: center;
   background-color: black;
-  margin-top: 20px ;
+  margin-top: 20px;
   padding: 10px;
   position: fixed;
   bottom: 0;
@@ -101,72 +99,78 @@ footer {
 Footer p {
   color: white;
 }
-.perso2{
+.perso2 {
   display: flex;
   flex-flow: row-reverse;
 }
-.text{
+.text {
   width: 60%;
   padding: 15px;
 }
-.container-perso{
+.container-perso {
   display: flex;
   justify-content: center;
 }
 
 .titre-maisons {
-  text-align: center;  
+  text-align: center;
   padding: 10px;
   margin-bottom: 110px;
 }
-.container-perso img{
+.container-perso img {
   width: 200px;
 }
 
-.maisons{
+.maisons {
   display: flex;
   flex-flow: row wrap;
-  justify-content:space-around;
- 
+  justify-content: space-around;
 }
 
-.maison{
+.maison {
   display: flex;
-  flex-flow: column ;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
   padding: 10px;
   margin: 10px;
 }
 
-
-@media screen and (max-width: 768px){
-  .container-perso{
+@media screen and (max-width: 768px) {
+  .container-perso {
     flex-flow: column wrap;
     justify-content: center;
     align-content: center;
   }
-  .wrapper{
+  .wrapper {
     justify-content: center;
     align-content: center;
     gap: 70px;
   }
 
-  .titre1{
+  .titre1 {
     padding: 10px;
     text-align: center;
   }
-  .text > h2{
+  .text > h2 {
     text-align: center;
   }
-  .container-perso img{
+  .container-perso img {
     width: 70%;
     object-fit: contain;
   }
-  .main{
+  .main {
     margin-bottom: 80px;
   }
-  .titre-maisons{
-    margin-bottom: 0 ;
+  .titre-maisons {
+    margin-bottom: 0;
   }
+}
+
+.border {
+  border-radius: 30px;
+}
+
+.margin-heros {
+  margin-bottom: 30px;
 }
