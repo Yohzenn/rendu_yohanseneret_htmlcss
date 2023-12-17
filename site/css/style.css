@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+header {
+  background-color: black;
+  padding: 5px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: red;
+}
+
+.titre1 {
+  display: flex;
+  justify-content: center;
+}
+
+.heros {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+Footer p {
+  color: white;
+}
+
+.personnages {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.titre-maisons {
+  display: flex;
+  justify-content: center;
+}
+
+.maisons {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-top: 100px;
+}
+
+.description-maisons {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.background {
+  position: absolute;
+  background-image: url(https://2463240.fs1.hubspotusercontent-na1.net/hubfs/2463240/Photo%20pour%20web/ES_5152.webp);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.livresul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
